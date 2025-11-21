@@ -1,3 +1,9 @@
+# Remove all authentication requirements for REST API
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny',
+    ],
+}
 """
 Django settings for octofit_tracker project.
 

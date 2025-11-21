@@ -1,0 +1,137 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #1a237e;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #1a237e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link, a, .navbar-brand, .nav-link {
+  color: #1976d2 !important;
+  transition: color 0.2s;
+}
+
+.App-link:hover, a:hover, .navbar-brand:hover, .nav-link:hover {
+  color: #0d47a1 !important;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%) !important;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+}
+
+.nav-link {
+  color: #e3f2fd !important;
+  font-weight: 500;
+}
+
+.nav-link.active, .nav-link:focus {
+  color: #fff !important;
+  background: #1565c0;
+  border-radius: 4px;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+  background: #f5faff;
+  box-shadow: 0 2px 12px rgba(33, 150, 243, 0.08);
+}
+
+.card-title, h2, h1, h3, h4, h5 {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:focus {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+}
+
+.btn-primary:hover {
+  background: #1565c0;
+  color: #fff;
+}
+
+.table {
+  background: #e3f2fd;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.table th {
+  background: #1976d2;
+  color: #fff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: #f1f8ff;
+}
+
+.table-hover tbody tr:hover {
+  background: #bbdefb;
+}
+
+/* Favicon and logo animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
